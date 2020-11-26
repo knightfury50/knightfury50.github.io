@@ -1,0 +1,179 @@
+#all {
+    display: flex;
+    margin: auto;
+    margin-top: 50px;
+    width: 40vw; 
+    height: 80vh;
+    background-color: rgb(255, 255, 255);    
+}
+#button {
+    background-color: rgb(111, 111, 111);
+    display: flex;
+    flex-direction: column;
+    flex-grow: 0.1;
+}
+.button {
+    width : 150px;
+    background-color: rgb(100, 214, 226);
+    border: none;
+    text-align: left;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    margin-bottom: 3px;
+    transition-duration: 0.5s;
+}
+.button:hover {
+    background-color: #3c6382;
+    color: white;
+}
+.button:focus {
+    background-color: #3c6382;
+    color: white;
+}
+#content {
+    background-color: rgb(160, 160, 160);
+    flex-grow: 2.5;
+}
+#home {
+    margin: auto;
+    background-color: rgb(189, 189, 189);
+    z-index: 5;
+    position: absolute;
+    width: 32vw;
+    height: 80vh;
+    padding: 30px;
+}
+img {
+    display: block;
+    margin: auto;
+    border-radius: 50%;
+    height: 170px;
+    width: 170px;
+    margin-top: 40px;
+    margin-bottom: 25px;
+}
+#name,#job,#email,#phone {
+    text-align: center;
+}
+#name1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 38px;
+    font-weight: 700;
+    letter-spacing: -2px;
+    line-height: 39.6px;
+}
+#name2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 45px;
+    font-weight: 700;
+    letter-spacing: -2px;
+    line-height: 39.6px;
+    color: #08AEAC
+}
+#job {
+    font-family: Montserrat, sans-serif;
+    font-size: 20px;
+    margin-top: 5px;
+}
+#email,#phone {
+    font-family: Montserrat, sans-serif;
+    font-size: 15px;
+    background-color: #08AEAC;
+    border : 1px solid #08AEAC;
+    border-width: 10px;
+    border-radius: 7px;
+    color: white;
+}
+.profile {
+    background-color: rgb(86, 86, 86);
+    z-index: 4;
+    position: absolute;
+    width: 32vw;
+    height: 80vh;
+    padding-top: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+#profile1 {
+    margin: 5px;
+    background-color: white;
+    padding-left: 5px;
+    border-radius: 5px;
+    font-size: 18px;
+}
+#profile2 {
+    margin: 5px;
+    padding-left: 5px;
+    color: white;
+}
+.education {
+    background-color: rgb(193, 193, 193);
+    z-index: 3;
+    position: absolute;
+    width: 32vw;
+    height: 80vh;
+    padding-top: 15px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+#education1 {
+    background-color: gray;
+    color: white;
+    text-align: right;
+    padding-right: 5px;
+}
+#education2 {
+    color: rgb(61, 61, 61);
+}
+.experience {
+    background-color: rgb(193, 193, 193);
+    z-index: 2;
+    position: absolute;
+    width: 32vw;
+    height: 80vh;
+    padding-top: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+#experience1 {
+    background-color: gray;
+    color: white;
+    padding-left: 5px;
+}
+#experience2 {
+    color: rgb(61, 61, 61);
+    font-size: 21px;
+}
+.skills {
+    background-color: rgb(193, 193, 193);
+    z-index: 1;
+    position: absolute;
+    width: 32vw;
+    height: 80vh;
+    padding-top: 30px;
+}
+#Skills {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+}
+#a {
+    display: inline-block;
+    background-color: black;
+    color: white;
+    height: 30px;
+    width: 15vw;
+    margin-left: 15px;
+    padding-left: 10px;
+}
+#b {
+    display: inline-block;
+    background-color: white;
+    height: 30px;
+    width: 15vw;
+    text-align: right;
+    padding-right: 10px;
+}
